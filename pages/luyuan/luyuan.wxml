@@ -1,0 +1,71 @@
+<!-- pages/luyuan/luyuan.wxml
+<text>pages/luyuan/luyuan.wxml</text> -->
+<!-- 乐园 -->
+<!-- 轮播图 -->
+<swiper indicator-dots circular autoplay intervalduration>
+<swiper-item>
+<image src="/static/uploads/slide_1.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="/static/uploads/slide_2.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="/static/uploads/slide_3.jpg"></image>
+</swiper-item>
+</swiper>
+<!-- 乐园活动 -->
+<view class="title">乐园活动</view>
+<view class="item">
+<!-- 活动图片 -->
+<navigator url="">
+<image src="/static/uploads/item_1.png"></image>
+</navigator>
+<!-- 图片描述 -->
+<view class="info">
+<!-- 名称 -->
+<view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+<!-- 描述 -->
+<view class="desc">
+<text>200人已报名</text>
+<text>本周六开始</text>
+</view>
+<!-- 免费 -->
+<view class="free">免费</view>
+</view>
+</view>
+<view class="item">
+<!-- 活动图片 -->
+<navigator url="">
+<image src="/static/uploads/item_2.png"></image>
+</navigator>
+<!-- 图片描述 -->
+<view class="info">
+<!-- 名称 -->
+<view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+<!-- 描述 -->
+<view class="desc">
+<text>200人已报名</text>
+<text>本周六开始</text>
+</view>
+<!-- 免费 -->
+<view class="free">免费</view>
+</view>
+</view>
+<view class="item">
+<!-- 活动图片 -->
+<navigator url="">
+<image src="/static/uploads/item_3.png"></image>
+</navigator>
+<!-- 图片描述 -->
+<view class="info">
+<!-- 名称 -->
+<view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+<!-- 描述 -->
+<view class="desc">
+<text>200人已报名</text>
+<text>本周六开始</text>
+</view>
+<!-- 免费 -->
+<view class="free">免费</view>
+</view>
+</view>

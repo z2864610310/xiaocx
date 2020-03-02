@@ -1,0 +1,15 @@
+/* pages/my/my.wxss */
+.fruits{
+  display: flex
+}
+.item{
+flex: 1;
+background-color: pink;
+text-align: center
+}
+.active{
+  color: blue;
+}
+image{
+  width: 750rpx;
+}

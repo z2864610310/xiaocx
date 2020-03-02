@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/luyuan/luyuan",
+    "pages/detail/index",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/demo/demo",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#262626",
+    "navigationBarTitleText": "主页",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "backgroundColor": "#FECA49",
+    "color": "#D78B09 ",
+    "selectedColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/luyuan/luyuan",
+        "text": "首页",
+        "iconPath": "static/icons/home-default.png",
+        "selectedIconPath": "static/icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "卡券",
+        "iconPath": "static/icons/ticket-default.png",
+        "selectedIconPath": "static/icons/ticket-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/icons/face-default.png",
+        "selectedIconPath": "static/icons/face-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

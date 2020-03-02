@@ -1,0 +1,6 @@
+<view>
+Demo非菜单页面
+</view>
+<view>
+<navigator open-type="switchTab" url="/pages/my/my">返回我的页面</navigator>
+</view>

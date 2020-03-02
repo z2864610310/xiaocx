@@ -1,0 +1,31 @@
+<!--pages/my/my.wxml-->
+<!-- <view class="fruits">
+<view class="item">苹果</view>
+<view class="item">橘子</view>
+<view class="item">柠檬</view>
+</view> -->
+<!-- text 标签可以通过 selectable 控制文本是否选中 -->
+<!-- <view>
+
+<text selectable>测试文本</text>
+</view> -->
+<swiper indicator-dots circular autoplay intervalduration>
+<swiper-item>
+<image src="/static/uploads/slide_1.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="/static/uploads/slide_2.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="/static/uploads/slide_3.jpg"></image>
+</swiper-item>
+</swiper>
+
+<!-- 导航 跳转到首页 -->
+<navigator open-type="switchTab" url="/pages/index/index">转跳到主页</navigator>
+<navigator open-type="navigate" url="/pages/demo/demo">转跳到demo页面</navigator>
+<navigator open-type="redirect" url="/pages/demo/demo">转跳到demo页面</navigator>
+
+<!-- 样式处理 -->
+<view class="active">样式处理</view>
+<view style="background-color: pink">style样式</view>

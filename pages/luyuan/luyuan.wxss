@@ -1,0 +1,35 @@
+/* pages/luyuan/luyuan.wxss */
+image{
+  width: 750rpx;
+  height: 320rpx;
+}
+swiper{
+  height: 320rpx;
+}
+.title{
+  font-size:  28rpx;
+  color: #3C3C3C;
+  font-weight: bold;
+  padding: 20rpx 30rpx;
+}
+.item .info{
+  height: 180rpx;
+  position: relative;
+}
+.item .info .name{
+  padding: 16rpx 130rpx 16rpx 30rpx;
+  font-size: 30rpx;
+  color: #3C3C3C;
+}
+.item .info .desc{
+  font-size: 22rpx;
+  color: #B4B4B4;
+  padding: 15rpx 30rpx 22rpx 30rpx;
+}
+.item .info .free{
+  position: absolute;
+  font-size: 30rpx;
+  color: #FE6249;
+  right: 30rpx;
+  top: 16rpx;
+}
