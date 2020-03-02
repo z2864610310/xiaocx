@@ -5,7 +5,8 @@
     "pages/logs/logs",
     "pages/my/my",
     "pages/demo/demo",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/test/test"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -22,20 +23,20 @@
       {
         "pagePath": "pages/luyuan/luyuan",
         "text": "首页",
-        "iconPath": "static/icons/home-default.png",
-        "selectedIconPath": "static/icons/home-active.png"
+        "iconPath": "/icons/home-default.png",
+        "selectedIconPath": "/icons/home-active.png"
       },
       {
         "pagePath": "pages/logs/logs",
         "text": "卡券",
-        "iconPath": "static/icons/ticket-default.png",
-        "selectedIconPath": "static/icons/ticket-active.png"
+        "iconPath": "/icons/ticket-default.png",
+        "selectedIconPath": "/icons/ticket-active.png"
       },
       {
         "pagePath": "pages/my/my",
         "text": "我的",
-        "iconPath": "static/icons/face-default.png",
-        "selectedIconPath": "static/icons/face-active.png"
+        "iconPath": "/icons/face-default.png",
+        "selectedIconPath": "/icons/face-active.png"
       }
     ]
   },

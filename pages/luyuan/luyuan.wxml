@@ -4,13 +4,13 @@
 <!-- 轮播图 -->
 <swiper indicator-dots circular autoplay intervalduration>
 <swiper-item>
-<image src="/static/uploads/slide_1.jpg"></image>
+<image src="https://z2864610310.github.io/xiaocx/static/uploads/slide_1.jpg"></image>
 </swiper-item>
 <swiper-item>
-<image src="/static/uploads/slide_2.jpg"></image>
+<image src="https://z2864610310.github.io/xiaocx/static/uploads/slide_2.jpg"></image>
 </swiper-item>
 <swiper-item>
-<image src="/static/uploads/slide_3.jpg"></image>
+<image src="https://z2864610310.github.io/xiaocx/static/uploads/slide_3.jpg"></image>
 </swiper-item>
 </swiper>
 <!-- 乐园活动 -->
@@ -18,7 +18,7 @@
 <view class="item">
 <!-- 活动图片 -->
 <navigator url="">
-<image src="/static/uploads/item_1.png"></image>
+<image src="https://z2864610310.github.io/xiaocx/static/uploads/item_1.png"></image>
 </navigator>
 <!-- 图片描述 -->
 <view class="info">
@@ -27,7 +27,7 @@
 <!-- 描述 -->
 <view class="desc">
 <text>200人已报名</text>
-<text>本周六开始</text>
+<text class="icon-clock">本周六开始</text>
 </view>
 <!-- 免费 -->
 <view class="free">免费</view>
@@ -36,7 +36,7 @@
 <view class="item">
 <!-- 活动图片 -->
 <navigator url="">
-<image src="/static/uploads/item_2.png"></image>
+<image src="https://z2864610310.github.io/xiaocx/static/uploads/item_2.png"></image>
 </navigator>
 <!-- 图片描述 -->
 <view class="info">
@@ -45,7 +45,7 @@
 <!-- 描述 -->
 <view class="desc">
 <text>200人已报名</text>
-<text>本周六开始</text>
+<text class="icon-clock">本周六开始</text>
 </view>
 <!-- 免费 -->
 <view class="free">免费</view>
@@ -54,7 +54,7 @@
 <view class="item">
 <!-- 活动图片 -->
 <navigator url="">
-<image src="/static/uploads/item_3.png"></image>
+<image src="https://z2864610310.github.io/xiaocx/static/uploads/item_3.png"></image>
 </navigator>
 <!-- 图片描述 -->
 <view class="info">
@@ -63,7 +63,7 @@
 <!-- 描述 -->
 <view class="desc">
 <text>200人已报名</text>
-<text>本周六开始</text>
+<text class="icon-clock">本周六开始</text>
 </view>
 <!-- 免费 -->
 <view class="free">免费</view>

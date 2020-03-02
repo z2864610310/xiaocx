@@ -11,13 +11,13 @@
 </view> -->
 <swiper indicator-dots circular autoplay intervalduration>
 <swiper-item>
-<image src="/static/uploads/slide_1.jpg"></image>
+<image src="https://z2864610310.github.io/xiaocx/static/uploads/slide_1.jpg"></image>
 </swiper-item>
 <swiper-item>
-<image src="/static/uploads/slide_2.jpg"></image>
+<image src="https://z2864610310.github.io/xiaocx/static/uploads/slide_2.jpg"></image>
 </swiper-item>
 <swiper-item>
-<image src="/static/uploads/slide_3.jpg"></image>
+<image src="https://z2864610310.github.io/xiaocx/static/uploads/slide_3.jpg"></image>
 </swiper-item>
 </swiper>
 
@@ -29,3 +29,5 @@
 <!-- 样式处理 -->
 <view class="active">样式处理</view>
 <view style="background-color: pink">style样式</view>
+
+<view class="test">测试</view>

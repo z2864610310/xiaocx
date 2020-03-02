@@ -13,3 +13,16 @@ text-align: center
 image{
   width: 750rpx;
 }
+/* 样式文件中不可以使用本地图片 */
+/* 可以使用网络地址，或者base64图片 ,或者在 wxml中使用 image*/
+.test{
+  width: 750rpx;
+  height: 375rpx;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAOCAIAAABPZMCZAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA9ElEQVQokZ2RS27DMAwF59FU7LrIoqfrmXrjxLLELqxEht0AQbkiRc7jR+L7h3fMnPkLMwIUIAgCR3qLTyMyAAUNFzV7S7enAEAPX88Ew3hUVFCzE1sRIFCXY8drwNMDs16/3PypRkRLhJAIg0ADVMa5t91mDKh3SjEuE2a7HbbzBNTex0/DA/kO4UxX4sp6I99ZF7TNUrtzGWFoZ9uNQc4Ib0GaSCO1sGbWTFmoBYnBlOawAwyAiRIOPL5QmJMG0kRUSuMD43nifnyRPqjFj6pNy3Dr4bl5wGWirif+KPQqC4jx0/4D78pe8O/aS/688Z9V8QvK2GGoiTobEAAAAABJRU5ErkJggg==)
+}
+/* .test {
+  width: 750rpx;
+  height: 375rpx;
+  /* background: url(https://byte0.github.io/myinfo/icons/face-default.png) */
+  /* background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAOCAIAAABPZMCZAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA9ElEQVQokZ2RS27DMAwF59FU7LrIoqfrmXrjxLLELqxEht0AQbkiRc7jR+L7h3fMnPkLMwIUIAgCR3qLTyMyAAUNFzV7S7enAEAPX88Ew3hUVFCzE1sRIFCXY8drwNMDs16/3PypRkRLhJAIg0ADVMa5t91mDKh3SjEuE2a7HbbzBNTex0/DA/kO4UxX4sp6I99ZF7TNUrtzGWFoZ9uNQc4Ib0GaSCO1sGbWTFmoBYnBlOawAwyAiRIOPL5QmJMG0kRUSuMD43nifnyRPqjFj6pNy3Dr4bl5wGWirif+KPQqC4jx0/4D78pe8O/aS/688Z9V8QvK2GGoiTobEAAAAABJRU5ErkJggg==)
+}  */
